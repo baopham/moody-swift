@@ -19,4 +19,21 @@ Moody. So can be anything. Swift version.
 
 
 ## Getting Started
-1. `vapor build && vapor run`
+```
+make run
+```
+Go to [localhost:8080](http://localhost:8080)
+
+## Development
+
+### Client
+```
+make run-client
+cd ./Resources/SPA && vim .
+```
+Go to [localhost:3000](http://localhost:3000)
+
+### API/Vapor
+```
+make run-vapor
+```
