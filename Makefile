@@ -1,3 +1,6 @@
+install-client:
+	cd ./Resources/SPA && yarn install
+
 deploy-client:
 	cd ./Resources/SPA && yarn run deploy:prod
 

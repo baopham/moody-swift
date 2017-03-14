@@ -4,6 +4,8 @@ Moody. So can be anything. Swift version.
 
 ## Requirements
 - [Vapor toolbox](https://github.com/vapor/toolbox)
+- Node ^6
+- Yarn
 - PostgreSQL
   - Add `Config/secrets/postgresql.json`:
 
@@ -19,9 +21,12 @@ Moody. So can be anything. Swift version.
 
 
 ## Getting Started
+
 ```
+make install-client
 make run
 ```
+
 Go to [localhost:8080](http://localhost:8080)
 
 ## Development
@@ -31,9 +36,11 @@ Go to [localhost:8080](http://localhost:8080)
 make run-client
 cd ./Resources/SPA && vim .
 ```
+
 Go to [localhost:3000](http://localhost:3000)
 
 ### API/Vapor
+
 ```
 make run-vapor
 ```
